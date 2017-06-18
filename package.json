@@ -4,7 +4,7 @@
   "description": "test for cider 1",
   "main": "index.js",
   "scripts": {
-    "test": "./scripts/test.js"
+    "test": "./node_modules/jshint/bin/jshint ./scripts/test.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/spacetesterson/cidertest1/issues"
   },
-  "homepage": "https://github.com/spacetesterson/cidertest1#readme"
+  "homepage": "https://github.com/spacetesterson/cidertest1#readme",
+  "devDependencies": {
+    "jshint": "^2.9.4"
+  }
 }
